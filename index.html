@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Generator</h1>
+      <!-- if SO Clicked on This Input Copy The Value inside the input -->
+      <input type="text" id="display" readonly placeholder="Get new password" />
+      <!-- Setting -->
+      <div class="setting">
+        <div class="length">
+          <label for="lengthInput">length : </label>
+          <input type="number" id="lengthInput" />
+        </div>
+        <div class="checkBoxes">
+          <div class="checkBox">
+            <input type="checkbox" id="upperCase" />
+            <label for="upperCase">Include Uppercase</label>
+          </div>
+          <div class="checkBox">
+            <input type="checkbox" id="lowerCase" />
+            <label for="lowerCase">Include LowerCase</label>
+          </div>
+          <div class="checkBox">
+            <input type="checkbox" id="numbers" />
+            <label for="numbers">Include Numbers</label>
+          </div>
+          <div class="checkBox">
+            <input type="checkbox" id="symbols" />
+            <label for="symbols">Include Symbols</label>
+          </div>
+        </div>
+      </div>
+      <button id="generateBtn">Generate New Password</button>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
