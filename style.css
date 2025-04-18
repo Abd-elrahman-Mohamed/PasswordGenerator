@@ -6,7 +6,7 @@
 body {
   background-color: #235d57;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #51C6AB;
+  color: #51c6ab;
 }
 .container {
   min-width: 300px;
@@ -55,7 +55,7 @@ body {
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    color: #51C6AB;
+    color: #51c6ab;
     text-align: center;
   }
   .length {
@@ -63,10 +63,10 @@ body {
       width: 50px;
       background-color: transparent;
       outline: 0;
-      border: none;
+      border: 1px solid #1e1e2f30;
       border-radius: 5px;
       padding: 0px 5px;
-      color: #51C6AB;
+      color: #51c6ab;
       font-size: 20px;
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -96,7 +96,7 @@ body {
     background-color: transparent;
     outline: none;
     border: 1px solid #1e1e2f55;
-    color: #51C6AB;
+    color: #51c6ab;
     border-radius: 7px;
     cursor: pointer;
     -webkit-border-radius: 7px;
